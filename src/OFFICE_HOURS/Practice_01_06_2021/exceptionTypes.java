@@ -2,7 +2,7 @@ package OFFICE_HOURS.Practice_01_06_2021;
 
 import java.io.FileNotFoundException;
 
-public class exception {
+public class exceptionTypes {
 
     public static void main(String[] args) {
 
@@ -23,6 +23,12 @@ public class exception {
         /*
          exception handling:
         1. try & catch: can handle any exception
+
+        try{
+        exception code //
+        }catch(Exception){
+        }
+
         2.throws =for only checked exceptions. used in signature of method
                   method itself is going to throw exception when you call it
 
